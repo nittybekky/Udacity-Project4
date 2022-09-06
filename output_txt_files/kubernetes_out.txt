@@ -1,3 +1,12 @@
+(.devops) goodyb@DESKTOP-NBLGB6A:/mnt/c/Udacity-DevOps/Udacity-Devops/Project4/project-ml-microservice-kubernetes$ run_kubernetes.sh 
+Error from server (AlreadyExists): pods "devops" already exists
+NAME     READY   STATUS    RESTARTS      AGE
+devops   1/1     Running   1 (10m ago)   16m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
 Port: 8000
 {
   "prediction": [
