@@ -6,8 +6,9 @@
 [2022-09-06 14:31:18,332] INFO in app: Scaling Payload:
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
+[2022-09-06 14:31:18,336] INFO in app: My Prediction Value:
+[20.35373177134412]
 172.17.0.1 - - [06/Sep/2022 14:31:18] "POST /predict HTTP/1.1" 200 -
-
 
 (.devops) goodyb@DESKTOP-NBLGB6A:/mnt/c/Udacity-DevOps/Udacity-Devops/Project4/project-ml-microservice-kubernetes$ ./make_prediction.sh
 Port: 8000
