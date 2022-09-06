@@ -1,16 +1,31 @@
-[2022-09-06 14:31:18,031] INFO in app: JSON payload:
+Successfully built 6e7809b9765f
+Successfully tagged devopsmlmicroservice2:latest
+REPOSITORY              TAG             IMAGE ID       CREATED                  SIZE
+devopsmlmicroservice2   latest          6e7809b9765f   Less than a second ago   1.19GB
+python                  3.7.3-stretch   34a518642c76   3 years ago              929MB
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 143-280-058
+[2022-09-06 21:45:45,842] INFO in app: JSON payload: 
 {'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
-[2022-09-06 14:31:18,307] INFO in app: Inference payload DataFrame:
+[2022-09-06 21:45:45,881] INFO in app: Inference payload DataFrame: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2022-09-06 14:31:18,332] INFO in app: Scaling Payload:
+[2022-09-06 21:45:45,908] INFO in app: Scaling Payload: 
    CHAS     RM    TAX  PTRATIO      B  LSTAT
 0     0  6.575  296.0     15.3  396.9   4.98
-[2022-09-06 14:31:18,336] INFO in app: My Prediction Value:
+[2022-09-06 21:45:45,919] INFO in app: My Prediction Value: 
 [20.35373177134412]
-172.17.0.1 - - [06/Sep/2022 14:31:18] "POST /predict HTTP/1.1" 200 -
+172.17.0.1 - - [06/Sep/2022 21:45:45] "POST /predict HTTP/1.1" 200 -
 
-(.devops) goodyb@DESKTOP-NBLGB6A:/mnt/c/Udacity-DevOps/Udacity-Devops/Project4/project-ml-microservice-kubernetes$ ./make_prediction.sh
+
+(.devops) voclabs:~/environment/Udacity-Project4 (main) $ bash make_prediction.sh
 Port: 8000
 {
   "prediction": [
